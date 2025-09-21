@@ -14,7 +14,7 @@ const Hero = () => {
               className="w-32 h-32 rounded-full mx-auto mb-6 border-4 border-primary/30 glow-effect object-cover"
             />
             <h1 className="text-5xl md:text-7xl font-bold mb-4">
-              <span className="gradient-text">Seu Nome</span>
+              <span className="gradient-text">Fernando Aparecido</span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8">
               Desenvolvedor Full Stack | Java & Angular
@@ -23,17 +23,13 @@ const Hero = () => {
 
           <div className="max-w-2xl mx-auto mb-8">
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Persisto na carreira de TI desde 2008, começando com curso de manutenção de PC, 
-              depois jogos eletrônicos. Agora cursando programação na faculdade, buscando uma 
-              oportunidade para mudar de vida e construir uma carreira sólida em tecnologia.
-            </p>
+              Sou estudante de Tecnologia da Informação e atualmente curso graduação na área, buscando constante evolução e aprendizado. Minha trajetória profissional começou na área de telecomunicações, onde desenvolvi habilidades em suporte e operação técnica, mas meu objetivo é crescer na área de desenvolvimento de software.
+
+              Tenho estudado e praticado diversas tecnologias que fazem parte do mercado atual, com foco em Java, Spring Boot, Angular e também outras ferramentas e frameworks que fortalecem minhas competências em desenvolvimento full stack. Meu interesse é aplicar esses conhecimentos na construção de soluções eficientes, com boas práticas de código e foco na experiência do usuário.
+              </p>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button size="lg" className="bg-gradient-to-r from-primary to-primary-glow hover:opacity-90">
-              <Download className="mr-2 h-5 w-5" />
-              Download CV
-            </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="#contato">
                 Entre em Contato

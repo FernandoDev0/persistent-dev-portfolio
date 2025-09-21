@@ -6,14 +6,13 @@ const Projects = () => {
   const projects = [
     {
       title: "Delivery Tech",
-      description: "Sistema completo de delivery desenvolvido recentemente, incluindo gestão de pedidos, cardápio digital e integração com pagamentos. Projeto focado em demonstrar habilidades full stack.",
-      technologies: ["Angular", "Java", "Spring Boot", "MySQL", "AWS"],
+      description: "Sistema completo de delivery desenvolvido recentemente, incluindo gestão de pedidos, cardápio digital. Projeto focado em demonstrar habilidades.",
+      technologies: [ "Java", "Spring Boot", "MySQL", "AWS"],
       icon: Truck,
       status: "Concluído",
       highlights: [
         "Interface responsiva e intuitiva",
         "API RESTful robusta",
-        "Integração com gateway de pagamento",
         "Deploy em cloud AWS"
       ]
     }
