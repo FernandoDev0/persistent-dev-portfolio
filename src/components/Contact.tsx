@@ -28,8 +28,8 @@ const Contact = () => {
                   <Mail className="h-5 w-5 text-primary" />
                   <div>
                     <p className="font-medium">Email</p>
-                    <a href="mailto:seu.email@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                      seu.email@gmail.com
+                    <a href="mailto:rodriguescalassio@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                      rodriguescalassio@gmail.com
                     </a>
                   </div>
                 </div>
@@ -57,17 +57,17 @@ const Contact = () => {
                 <h4 className="font-semibold mb-4">Redes Sociais</h4>
                 <div className="flex space-x-4">
                   <Button variant="outline" size="icon" asChild>
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/FernandoDev0" target="_blank" rel="noopener noreferrer">
                       <Github className="h-5 w-5" />
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <a href="https://br.linkedin.com/in/fernandoaparecidocalassio" target="_blank" rel="noopener noreferrer">
                       <Linkedin className="h-5 w-5" />
                     </a>
                   </Button>
                   <Button variant="outline" size="icon" asChild>
-                    <a href="mailto:seu.email@gmail.com">
+                    <a href="mailto:rodriguescalassio@gmail.com">
                       <Mail className="h-5 w-5" />
                     </a>
                   </Button>
@@ -75,47 +75,31 @@ const Contact = () => {
               </div>
             </div>
             
-            {/* Formulário de Contato */}
+            {/* Informações Adicionais */}
             <div className="card-modern">
-              <h3 className="text-xl font-semibold mb-6">Envie uma Mensagem</h3>
-              <form className="space-y-6">
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium mb-2">
-                      Nome
-                    </label>
-                    <Input id="name" placeholder="Seu nome" />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium mb-2">
-                      Email
-                    </label>
-                    <Input id="email" type="email" placeholder="seu@email.com" />
-                  </div>
+              <h3 className="text-xl font-semibold mb-6">Informações Profissionais</h3>
+              <div className="space-y-4">
+                <div className="p-4 rounded-lg bg-secondary/20">
+                  <h4 className="font-semibold mb-2">Disponibilidade</h4>
+                  <p className="text-muted-foreground">
+                    Aberto a oportunidades remotas e presenciais em São Paulo
+                  </p>
                 </div>
                 
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium mb-2">
-                    Assunto
-                  </label>
-                  <Input id="subject" placeholder="Assunto da mensagem" />
+                <div className="p-4 rounded-lg bg-secondary/20">
+                  <h4 className="font-semibold mb-2">Idiomas</h4>
+                  <p className="text-muted-foreground">
+                    Português (Nativo), Inglês (Intermediário)
+                  </p>
                 </div>
                 
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    Mensagem
-                  </label>
-                  <Textarea 
-                    id="message" 
-                    placeholder="Sua mensagem..." 
-                    rows={5}
-                  />
+                <div className="p-4 rounded-lg bg-secondary/20">
+                  <h4 className="font-semibold mb-2">Objetivo</h4>
+                  <p className="text-muted-foreground">
+                    Desenvolvedor Backend especializado em Java Spring Boot e AWS
+                  </p>
                 </div>
-                
-                <Button type="submit" className="w-full bg-gradient-to-r from-primary to-primary-glow">
-                  Enviar Mensagem
-                </Button>
-              </form>
+              </div>
             </div>
           </div>
         </div>

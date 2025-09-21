@@ -71,13 +71,17 @@ const Projects = () => {
                       </div>
                       
                       <div className="flex gap-4">
-                        <Button variant="outline" size="sm">
-                          <Github className="mr-2 h-4 w-4" />
-                          Código
+                        <Button variant="outline" size="sm" asChild>
+                          <a href="https://github.com/FernandoDev0/delivery-tech" target="_blank" rel="noopener noreferrer">
+                            <Github className="mr-2 h-4 w-4" />
+                            Código
+                          </a>
                         </Button>
-                        <Button size="sm" className="bg-gradient-to-r from-primary to-primary-glow">
-                          <ExternalLink className="mr-2 h-4 w-4" />
-                          Ver Demo
+                        <Button size="sm" className="bg-gradient-to-r from-primary to-primary-glow" asChild>
+                          <a href="#" target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="mr-2 h-4 w-4" />
+                            Swagger API
+                          </a>
                         </Button>
                       </div>
                     </div>
@@ -89,11 +93,13 @@ const Projects = () => {
           
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-4">
-              Mais projetos em desenvolvimento...
+              Confira mais projetos no meu GitHub
             </p>
-            <Button variant="outline">
-              <Github className="mr-2 h-4 w-4" />
-              Ver Todos no GitHub
+            <Button variant="outline" asChild>
+              <a href="https://github.com/FernandoDev0" target="_blank" rel="noopener noreferrer">
+                <Github className="mr-2 h-4 w-4" />
+                Ver Todos no GitHub
+              </a>
             </Button>
           </div>
         </div>

@@ -14,7 +14,7 @@ const Footer = () => {
               </p>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/FernandoDev0" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -22,7 +22,7 @@ const Footer = () => {
                   <Github className="h-5 w-5" />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://br.linkedin.com/in/fernandoaparecidocalassio" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors"
@@ -30,7 +30,7 @@ const Footer = () => {
                   <Linkedin className="h-5 w-5" />
                 </a>
                 <a 
-                  href="mailto:seu.email@gmail.com"
+                  href="mailto:rodriguescalassio@gmail.com"
                   className="text-muted-foreground hover:text-primary transition-colors"
                 >
                   <Mail className="h-5 w-5" />
@@ -72,7 +72,7 @@ const Footer = () => {
               Feito com <Heart className="h-4 w-4 text-red-500" /> usando React & TypeScript
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              © 2024 Meu Portfólio. Todos os direitos reservados.
+              © 2025 Meu Portfólio. Todos os direitos reservados.
             </p>
           </div>
         </div>
